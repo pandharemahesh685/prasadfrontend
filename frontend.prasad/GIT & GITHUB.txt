@@ -1,0 +1,21 @@
+GIT & GITHUB
+GIT: GIT is a distributed version control system used to manage versions. It is developed and maintained by oracle
+   steps to install
+     1. goto google and type "git for windows"
+     2. goto downlaods-git --> 64 bit windows setup
+     3. double click--->yes--->next--->next
+     4. check whether "vscode as default editor" or not?
+      5. next--->next---> next until final install
+     6. To verify, opene command prompt , write "git -v"
+
+     open vs code--->terminal--->new terminal
+
+     1. git init
+     2. git add .
+     3. git commit -m "message"
+But for first time
+     git config --global user.name "yourusername"
+     git config --global user.email "youremail"
+repeat 2nd and 3rd steps
+
+     Github: Github is online repository systen used to link,share,execute code. create an account in github

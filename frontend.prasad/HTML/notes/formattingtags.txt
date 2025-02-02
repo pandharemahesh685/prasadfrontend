@@ -1,0 +1,24 @@
+Formatting Tags:
+---------------------------
+      Formatting Tags are used to format the text such as bold, italic etc.., 
+  HTML Formatting Tags:
+      1. <b> : b is used for bold
+      2. <strong>: strong is also used to make the text bold but search engine understands
+           it better.
+      3. <i> : I is used to make the text italic
+      4. <em> : em is also used to make the text italic but search engine understand it better
+      5. <del> : del is used to strike out the text
+      6. <ins> : ins is used to insert the text but it appears as underlined
+      7. <u> : u is used to underline the text
+      8. <sup> : sup is used to write superscript
+      9. <sub> : sub is used to write subscript
+     10. <mark> : mark is used to highlight the text
+     11.<br> : br is used to break the line
+     12. <hr> : hr is used to display horizontal line
+ Note: br and hr are self closing tags
+     13. <kbd>: kbd is used for keyboard shortcuts
+     14. <pre> : pre is used to print text as preformatted(as it is)
+     15. <code> : code is used for displaying codes
+     16. <bdo> : bdo is used to print the text in different directions using 'dir' attribute
+                        ltr- left to right and rtl - right to left
+     The tags like strike,center,marquee,font are not recommanded

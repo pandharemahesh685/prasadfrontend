@@ -1,0 +1,15 @@
+Box Model is considered as "heart of css". Any element from html is considered as a box. A box contains
+  i. border:
+  border defines outermost line of any element. it will have width,type and color
+  border: width style color;
+  style can be dahed/double/dotted/solid/none
+  ii. border-radius: border radius means corner radius;
+  iii. padding: padding means space between border and content of the box.
+  padding:20px will assign all side 20px gap.
+  padding:30px 20px; will assign top and bottom 30px and left and right 20px.
+  padding:10px 20px 30px 40px; will assign values in clock wise - top right bottom left
+
+  But every element by default content-box, it means it increases height and width whenever padding increases
+  To stop it , we can change box to border-box by property box-sizing:border-box;
+
+  iv. margin: margin is the gap outside the box. it is similar to padding but works outside the border

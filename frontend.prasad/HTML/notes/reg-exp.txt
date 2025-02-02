@@ -1,0 +1,85 @@
+Regular Expressions (RegEx)
+==========================
+
+Regular expressions are patterns used to match character combinations in strings. They provide a powerful way to search, match and manipulate text.
+
+Basic Syntax
+-----------
+- . (dot) - Matches any single character except newline
+- ^ - Matches beginning of string
+- $ - Matches end of string
+- * - Matches 0 or more occurrences
+- + - Matches 1 or more occurrences
+- ? - Matches 0 or 1 occurrence
+- \ - Escapes special characters
+- [] - Matches any character within brackets
+- [^] - Matches any character NOT within brackets
+- | - Acts as OR operator
+- () - Groups patterns together
+
+Common Patterns
+--------------
+- \d - Matches any digit [0-9]
+- \D - Matches any non-digit
+- \w - Matches word character [a-zA-Z0-9_]
+- \W - Matches non-word character
+- \s - Matches whitespace
+- \S - Matches non-whitespace
+
+Examples
+--------
+1. Match email address:
+   /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/
+
+2. Match phone number:
+   /^\d{3}-\d{3}-\d{4}$/
+
+3. Match date (MM/DD/YYYY):
+   /^(0[1-9]|1[0-2])\/(0[1-9]|[12]\d|3[01])\/\d{4}$/
+
+4. Match URL:
+   /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/
+
+5. Match password (min 8 chars, 1 upper, 1 lower, 1 number):
+   /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/
+
+Common Use Cases
+---------------
+1. Form validation
+2. Search and replace
+3. Data extraction
+4. String manipulation
+5. Input sanitization
+
+Flags
+-----
+- g - Global search
+- i - Case-insensitive search
+- m - Multiline search
+- s - Dot matches newline
+- u - Unicode
+- y - Sticky search
+
+Testing Regular Expressions
+-------------------------
+Use online tools like regex101.com or regexr.com to test and debug regular expressions.
+
+Tips
+----
+1. Start simple and build complexity gradually
+2. Test with various inputs
+3. Consider performance for large datasets
+4. Document complex patterns
+5. Use named capture groups for clarity
+6. Consider using verbose mode for complex patterns
+7. Validate against edge cases
+
+Common Pitfalls
+--------------
+1. Greedy vs lazy matching
+2. Catastrophic backtracking
+3. Over-complicated patterns
+4. Not escaping special characters
+5. Incorrect character classes
+
+Remember that while regular expressions are powerful, they should be used judiciously. For simple string operations, standard string methods may be more appropriate.

@@ -1,0 +1,14 @@
+float is used to keep elements floated such that element lost the place and adjust into sides
+float: left/right/none;
+
+clear: To clear out values from left/right of floated elements, we can use property 'clear'
+clear: left/right/both.
+
+we can even make elements(block) side by side using 'float'
+
+display:  display is used to arrange elements 'display' property, either as 'block'/'inline'/inline-block'/none
+
+block is to make elements block such that they will not come side by side
+inline is to make elements inline such that they will come side by side but inline elements cannot use height/width
+inline-block is used to make elements with height /width and inline
+none is used to remove the element

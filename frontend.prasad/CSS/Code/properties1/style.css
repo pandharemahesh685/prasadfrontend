@@ -1,0 +1,35 @@
+body{
+    background:linear-gradient(123deg,orange,white,green);
+    background-attachment: fixed;
+    height: 100vh;
+}
+h1{
+    font-size: 64px;
+    text-align: center;
+    text-decoration: 5px wavy black underline;
+    letter-spacing: 25px;
+}
+img{
+    height: 300px;
+    margin: 30px;
+    float: right;
+}
+p{
+    font-size: 32px;
+    text-align: justify;    
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px green;
+    float: left;
+    margin: 30px;
+}
+.box1{
+    width: 40vw;
+}
+.box2{
+    width: 30vw;
+}

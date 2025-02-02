@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('https://resource.logitech.com/w_1800,h_1800,c_limit,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/logitech/en/homepage/mx-brio-hpb-desktop.jpg?v=1');
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    font-size: 16px;
+    max-width: 1280px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+}
+.logo{
+    font-size: 48px;
+    color: white;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+}
+.menu>li>a{
+    color: white;
+    text-decoration: none;
+            font-weight: 700;
+
+}
+#user{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#search{
+    border: 1px solid white;
+    background-color: rgb(190, 190, 190);
+    background: transparent;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#search>input{
+    background:transparent;
+    border: none;
+    width: 150px;
+}
+input::placeholder{
+    color:rgb(0, 0, 0)
+}
+#banner{
+    display: flex;
+}
+.left{
+    display: flex;
+    height: 300px;
+    width: 500px;
+    max-width: 700px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.left>h1{
+    font-size: 58px;
+    color: white;
+}
+.left>p{
+    color: rgb(227, 227, 227);
+    font-size: 18px;
+}
+.fa-solid{
+    color: white !important;
+}
+.buttons{
+    display: flex;
+}
+button{
+    padding: 20px 50px;
+    background-color: white;
+    color: black;
+}

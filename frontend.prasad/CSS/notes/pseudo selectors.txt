@@ -1,0 +1,34 @@
+We can select an element using multiple ways
+i. tag name : eg: h1
+ii. class name : eg: .classname
+iii. id name: eg: #idname
+iv. immediate child: eg: div>p(p who is direct child of div)
+v. descendant child: eg: div p(p who is descendent of div)
+vi. attribute selector: eg: input[type="text"]
+vii.immediate sibling selector(+):
+eg: h1+p( p which comes after h1)
+
+Pseudo selector: Pseudo selectors selects elements based on its position or state.
+
+  i. pseudo elements: These elements are used to select an element based on position
+    All pseudo elements will start with double column
+    ::first-letter: selects first letter of element
+    ::first-line: selects first line of element
+    ::before: used to add some content before element
+    ::after: used to add some content after the element
+  ii. pseudo classes
+  These classes are used to select an element based on its state
+  All these classes use single column
+     
+   :hover: hover will be applied when user puts mouse over the element
+   :required: it will select all inputs which are required
+   :optional: it will select all inputs which are not required
+   :readonly: it will select all inputs which are readonly
+   :read-write: it will select all elements which are not readonly
+   :disabled: it will select all disabled inputs
+   :enabled: it will selects all inputs which are not disabled
+   :first-child: selects the first child with the selector
+   :last-child: selects the last child with the selector
+   :nth-child(number): selects element with specific numbered child
+   :nth-last-child(number):selects element with specific numbered child from last
+   :nth-of-type(number): selects element with spefic numbered type

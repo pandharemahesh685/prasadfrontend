@@ -1,0 +1,32 @@
+Transition: transition means moving from one state to another state.
+You can control transition of an element by 'transition' property.
+transition: property time(s) timingFunction
+property: provide which property to show transition or 'all'
+time(duration): time in seconds or milliseconds
+timingFunction: it defines the speed in which element moves from one state to another state
+
+there are so many properties which can be applied for nice
+ transition effects
+
+transform: scale()--- Zoom
+           rotate() -- rotation
+           translateX() -- move horizontally
+           translateY() -- move vertically
+
+filter: none/grayscale/contrast/drop-shadow/brightness/blur/hue-rotate()
+
+clip-path:none/circle/ellipse/polygon
+
+animation: animation is nothing but element moves from one state to another stages via multiple states , simple it is multiple transitions
+
+animation-name: name of the animation
+animation-duration: time in s or ms of animation
+animation-timingFunction: function to decide how animation runs(ease/easeIn/easeOut/easeInOut/linear)
+animation-delay: time to delay the animation before it starts in s or ms
+animation-direction: decides which direction animation should run(normal/reverse/alternate/alternateReverse)
+animation-iteration-count:number of times animate to repeat
+
+we need to define animations using @keyframes where each and every state of animation will be defined
+0% - starting- from
+100% - ending - to
+Time is considered for percentage

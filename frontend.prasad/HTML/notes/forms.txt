@@ -1,0 +1,71 @@
+forms are used to collect user's data such as name,email,phone_number etc..,
+Eg: login, registration, feedback,contact,admission,
+attendance form, messages,subscribe,search, forgot password etc..,
+
+To take user's data we can use a self closing element named
+'input'
+Every input will have following attributes:
+  -- type: it defines the type of input it can take
+  -- placeholder: Dummy text to hold the place until actual value comes
+  -- id : used to identify the input uniquely
+  -- name : name is the variable by which value is sent to server
+Label Tag: label is used to select certain elements and it needed to be connected with input's id (for attribute)
+form tag also have attributes such as 
+  -- action: contains the path of server(where the form to be submitted)
+  -- method: it defines the way to send the values
+       -- GET: get shows all the values in  URL
+       -- POST: post will not show the values in the URL
+       
+-- create a simple login form using HTML(email,password)
+
+Input Types: There are different types of inputs such as
+  i. text: text is used for alphanumerical inputs
+  ii. email: email is used for email inputs
+  iii. password: password is used for secret keys,pins,password etc..,
+  iv. url: url is used to input links of http/https;
+  v. number: number is used to input the only numerical 
+  values.
+  vi. date: date is used to input date using default calender
+  vii. time: time is used to input time using default timer
+  viii. datetime-local: it is used to input date and time at a time
+  ix. week : it is used to input week of the year
+  x. month : it is used to input the month of the year
+  xi. file: file is used to upload certain files
+  xii. hidden : hidden is used to hide the input
+  xiii. button: button is used to include buttons of different variations
+        submit: submit is used to submit the form
+        reset: reset is used to reset the form 
+  xiv.color: color is used to select specific colours
+  xv. range: range is used to get range slider
+
+Radio buttons: radio buttons are used to select only one out of the choices
+
+In radio buttons, all same purpose radio buttons should have same name 
+
+<input type="radio" name="answer" value="yes>
+
+<input type="radio" name="answer" value="no">
+
+checkboxes: checkboxes are used to select one or more values
+<input type="checkbox" name="" id="" value="">
+all names of same purpose checkboxes should  be same.
+
+dropdowns: Drop Downs are used to select one or more values.
+it uses 'select' tag where each option is a 'option' tag
+<select name="" id="">
+   <option value="">option1</option>
+</select>
+
+To group multiple options, you can use optgroup with a label value
+
+form validations:
+   form validations are the conditions that are applied to inputs to verify the value receieved by input
+Required: it is used to make field entry mandatory
+Readonly: it is used to make input  only read but not write
+disabled: it will make the input disabled
+minlength: it will take minimum number of charcter
+maxlength: it will take maximum number of charcter
+min: it will take minimum value
+max: it will take maximum value
+pattern:
+[A-Z]{3,} -- RAJU

@@ -1,0 +1,17 @@
+--- background - image ---
+background-image: url('path of image');
+background-repeat: repeat/repeat-x/repeat-y/norepeat;
+background-size: auto/contain/cover;
+background-position:top/left/right/bottom/center;
+backdrop-filter: blur();
+
+-- shadow --
+box-shadow: xpx ypx zpx color;
+text-shadow: xpx ypx zpx color;
+
+-- text properties --
+text-decoration: xpx style(solid/wavy/none/dashed/dotted/double) color line-position;
+font-size: xpx;
+letter-spacing: xpx;
+line-height: height in px;
+text-indent:indentation  

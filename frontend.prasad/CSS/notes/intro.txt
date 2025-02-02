@@ -1,0 +1,85 @@
+CSS(Cascading style sheets): These files are used to design/style the web page
+They were introduced in 1994.The current version of CSS is CSS3
+There are 3 types of CSS:
+  i. inline CSS:
+  inline CSS will be applied to any HTML element with 'style'
+  as a attribute
+  eg:<h1 style="background-color: black; color: white;">Hello Everyone</h1>
+  ii. internal CSS:
+  internal CSS will be applied to any element or elements with 'style'
+  as an element
+  <style>
+     selector
+     {
+      //poperties
+     }
+  </style>
+ It is not mandatory to write style element in head, but it will help better performance and SEO
+  iii. external CSS:
+  external CSS will be applied to any element or anyelements as a separate file with '.css' extension
+you have to link with 
+    <link rel="stylesheet" href="./style.css">
+
+inline is the most powerful and between internal and external it depends on the latest one
+
+
+Basic Selectors:
+ 1. tag selector:
+ tag selectors selects all the elements of that tag name
+eg: h1{
+
+}
+  2. class name:
+  class name is used to select multiple elements with same class name, if we are using classname, it preceeds with dot
+  .classname
+
+  3. idname:
+  id's are used to select any element uniquely and it preceeds with hash(#)
+  #id
+
+if i want to overcome any css priority !important for any property
+
+!important > inline >internal/external(id>class>tag)
+
+
+To Understand Design well, we need to master few basics:
+i. units
+ii. colors
+iii. fonts
+
+
+i. units: units defines the size metrics.
+  a.px  --- pixels are the smallest unit of screen but they are not responsive
+  b.vh,vw --- viewport height,viewport width-- they are used to assign units according to screen
+  c.% -- percentage is used to provide some x % of its parent
+  d. em -- enumerated value -- it takes x times of parents font size
+  e. rem -- root enumerated value -- it takes always root font size(16px)
+
+
+2. colors:
+   Different colors represnts different meanings. color is part of the brand.
+   we can assign color with multiple properties such as background-color and color in different variations
+     i.name: we can specify colors by name;
+     ii. hexcode: every color will be represented by a hexadecimal code
+    iii. rgb(r,g,b): each value ranges from 0 to 255
+     rgba(r,g,b,alpha): it brings different shades of single color. 0.0 is the lowest and 1.0 is the highest
+    iv. hsl(hue,saturation,lightness): hue is the degree from 0-360.
+    saturation: % of darkness
+    lightness: % of lighness
+    we can also use hsla
+you can also specify multiple colors called gradients.
+background: linear-gradient(color1,color2...)
+or
+background:radial-gradient(color1,color2....)
+linear gradient show colors transform in horizontal or vertical direction and radial gradient shows in circular
+
+iii. fonts: fonts represents the brand. we use different font styles to express different goals
+there are 5 different font families exist
+  i. serif: serif fonts are used for documentations because they have stroke at end of every character
+    Eg: Times New Roman
+  ii. sans-serif:serif fonts are used for unofficial docs  because they do not  have stroke at end of every character
+  iii. monospace: they have same space between each character and same height
+  iv. fantasy: these are new fonts created
+  v.   cursive: cursive letters are combined ones
+
+  sites to refer: dafonts, 1001fonts, google fonts

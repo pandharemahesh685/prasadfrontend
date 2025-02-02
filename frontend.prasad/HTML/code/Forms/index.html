@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+
+  <body>
+    <form action="./main.java" method="get">
+      <div class="input">
+         <label for="na">Fullname:</label>
+         <input type="text" placeholder="enter name" id="na" name="na">
+       </div><br>
+       <div class="input">
+        <label for="em">Email:</label>
+        <input type="email" id="em" name="em">
+       </div><br>
+       <div class="input">
+        <label for="pwd">password:</label>
+        <input type="password" id="pwd" name="pwd">
+       </div> <br>
+       <div class="input">
+        <label for="age">Age:</label>
+         <input type="number"> 
+       </div><br>
+       <div class="input">
+        <label for="dob">Date of birth:</label>
+        <input type="date">
+       </div><br>
+       <input type="color">
+       <input type="time">
+       <input type="datetime-local">
+       <input type="file">
+       <input type="hidden" name="secret" value="it's a secret">
+       <input type="week">
+       <input type="url">
+       <input type="tel">
+       <input type="range" name="" id="">
+       <input type="submit" value="submit">
+       <input type="reset" value="reset">
+       <input type="radio" name="gen" id="m" value="Male">
+       <label for="m">Male:</label>  
+         <input type="radio" name="gen" id="f" value="FeMale">
+        <label for="f">Female:</label>
+       <button>submit</button>
+      <h1>what are the languages you know?</h1>
+      <input type="checkbox" name="answer" id="en" value="english" checked> 
+      <label for="en">English</label>
+      <input type="checkbox" name="answer" id="hi" value="hindi"> <label for="hi">Hindi</label>
+      <input type="checkbox" name="answer" id="tm" value="tamil"> <label for="tm">tamil</label>
+      <input type="checkbox" name="answer" id="te" value="telugu"> <label for="te">Telugu</label>
+      <input type="checkbox" name="answer" id="ko" value="korean"> <label for="kor">Korean</label>
+     <p>select your branch</p>
+      <select name="branch">
+        <optgroup label="Degree">
+           <option value="bsc">BSC</option>
+      <option value="bba">BBA</option>
+      <option value="bca">BCA</option>
+      <option value="bcom">Bcom</option>
+        </optgroup>
+        <optgroup label="ENGG">
+
+       <option value="cse">CSE</option>
+       <option value="ece">ECE</option>
+       <option value="mech">Mech</option>
+       <option value="civil">CIVIL</option>
+       <option value="aiml">AIML</option>
+       <option value="automobile">automobile</option>
+        </optgroup>
+     
+
+      </select>
+      <input type="text" list="countries">
+      <datalist id="countries">
+        <option value="india">India</option>
+       <option value="Indonasia">Indonasia</option>
+      <option value="Japan">Japan</option>
+        <option value="Korean">Korean</option>
+        <option value="USA">USA</option>
+      </datalist>
+      <textarea name="" id="" cols="100"></textarea>
+      <button type="submit">submit</button>
+    </form>
+  </body>
+
+</html>

@@ -1,0 +1,57 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+/* .box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: all 10s ease; 
+}
+.box:hover{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+} */
+ /* img{
+    height: 100px;
+    width: 100px;
+    transition: all 5s ease;
+ }
+img:hover{
+    height: 400px;
+} */
+/* img{
+    height: 300px;
+    transition: all 5s ease; */
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+
+/* img:nth-child(2){
+    left: 45vw;
+}
+img:nth-child(3){
+    left: 80vw;
+} */
+/* img:hover{ */
+    /* transform: scale(0.5);  */
+    /* for zoom use transform,scale, 1 means 100% */
+    /* transform: rotate(360deg); */
+    /* for rotate use transform rotate*/
+    /* transform: translateY(300px) */
+    /* top: 80vh;
+    left: 80vw; */
+/* } */
+
+
+
+img{
+    height: 400px;
+     /* filter:hue-rotate(220deg); */
+     clip-path: circle(150px);
+    transition: all 2s ease;
+}
+img:hover{
+clip-path: circle(400px);
+}

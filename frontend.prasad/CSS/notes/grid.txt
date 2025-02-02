@@ -1,0 +1,27 @@
+grid is used to arrange the elements in two dimensions/two direction(rows and columns)
+Grid container:
+ All the grid items are inside an element known as grid container.
+ display: grid --> it defines all its child items are arranged as  grid
+ grid-template-columns: column1-width column2-width ...;
+    it defines all columns individual widths
+    we can px,%,em,rems,fr
+ grid-template-rows: row1-height row2-height...;
+    it defines all rows individual heights
+ grid-template-areas: grid-template-rows/grid-template-columns
+ justify-content: it will move all grid items horizontally
+ align-items: it will move all grid items vertically
+ align-content: it will move all the rows(gap between rows)
+ gap: gap between rows and columns(also can assign row-gap, column-gap )
+
+grid-items: 
+  individual childern of grid container are called grid items
+grid-row-start: row-line-start
+grid-row-end: row-line-end
+grid-row: grid-row-start/grid-row-end
+grid-column-start: column-line-start
+grid-column-end: column-line-end
+grid-column: grid-column-start/grid-column-end;
+grid-area: row-start/column-start/row-end/column-end;
+order: by default all items order '0'. elements arranges according to order.
+justify-self:moves individual item along horizontally,
+align-self: moves individual item along vertically.

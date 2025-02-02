@@ -1,0 +1,27 @@
+A design or web page should be responsive means it should lookfit to the every device
+Types of devices
+   i. laptop: min-width:1280 max-width:1440px
+   ii. desktop: 990px to 1279px
+   iii. tablets: 776px to 997px
+   iv. mobiles: <776px
+
+   it is not necessary to divide exact sizes but using css we can treat each screen separetely
+
+   @media Queries:
+    it is used to define a certain range and "css" written inside media queries will be applied to only specified criteria
+    Eg: h1{
+        background-color:red;
+    }
+   @media(max-width:576px){
+    h1{
+       background-color:blue; 
+    }
+   }
+
+it means until 576px h1 bg color will be blue , later it is red normally
+Tips: 
+always try flex and grid
+never allow more spaces using paddings/margin
+use em,rem,%,vw,vh insteaad of px
+always use media queries at the end of file
+try different bgs for different devices
